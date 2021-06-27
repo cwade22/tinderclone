@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { StyleSheet } from 'react-native'
-import Swipeable from 'react-native-gesture-handler/Swipeable'
+import { Swipeable } from 'react-native-gesture-handler'
 import { RectButton } from 'react-native-gesture-handler'
 import SwipeableImage from './SwipeableImage'
 
