@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { StyleSheet } from 'react-native'
 import Swipeable from 'react-native-gesture-handler/Swipeable'
 import { RectButton } from 'react-native-gesture-handler'
-import SwipeableImage from './Swipeableimage'
+import SwipeableImage from './SwipeableImage'
 
 function Swipes({ users, currentIndex, handleLike, handlePass, swipesRef }) {
   const [willLike, setWillLike] = useState(false)
